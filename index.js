@@ -275,4 +275,5 @@ client.on("raw", (d) => {
     client.riffy.updateVoiceState(d);
 });
 
-client.login(process.env.token); //login bot using token
+client.login(process.env.TOKEN);
+ //login bot using token
